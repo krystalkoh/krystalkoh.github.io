@@ -35,7 +35,11 @@ const Profile = () => {
             >
               I'm Krystal
             </Text>
-            <Text align="center" variant="h4">
+            <Text
+              align="center"
+              variant="h4"
+              sx={{ fontFamily: "Abril Fatface', cursive;" }}
+            >
               a FULL-STACK WEB DEVELOPER
             </Text>
           </Box>
