@@ -1,10 +1,11 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
 import Profile from "../Components/Profile";
+import NavBar from "../Components/NavBar";
 
 const LandingPage = () => {
   return (
     <div>
+      <NavBar />
       <Profile></Profile>
     </div>
   );

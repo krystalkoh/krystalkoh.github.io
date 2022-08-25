@@ -6,6 +6,7 @@ import Image from "mui-image";
 import Text from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
+import NavBar from "./NavBar";
 
 const Profile = () => {
   return (
@@ -14,22 +15,28 @@ const Profile = () => {
         <Grid item xs={1}>
           <Image src={profPic} />
         </Grid>
-
-        <Grid item xs={1} component={Paper} elevation={6} square>
+        <Grid item xs={1} component={Paper} elevation={6}>
           <Box
             sx={{
-              my: 8,
+              my: 20,
               mx: 4,
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
             }}
           >
-            <Text>
-              <h1 align="center" mt={100}>
-                HI THERE!
-              </h1>
-              <h2 align="left"> I'M KRYSTAL</h2>
+            <Text align="center" variant="h4" sx={{ color: "##4B5563" }}>
+              Hello. 你好. Guten Tag.안녕하세요.
+            </Text>
+            <Text
+              align="center"
+              variant="h1"
+              sx={{ fontFamily: "Rozha One", color: "#5651E5" }}
+            >
+              I'm Krystal
+            </Text>
+            <Text align="center" variant="h4">
+              a FULL-STACK WEB DEVELOPER
             </Text>
           </Box>
         </Grid>
