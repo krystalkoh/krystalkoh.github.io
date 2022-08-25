@@ -16,13 +16,7 @@ const Profile = () => {
         <Grid item xs={1}>
           <Image src={profPic} />
         </Grid>
-        <Grid
-          item
-          xs={1}
-          component={Paper}
-          elevation={6}
-          sx={{ backgroundColor: "#acefde" }}
-        >
+        <Grid item xs={1} sx={{ backgroundColor: "#8FA28C" }}>
           <Box
             sx={{
               my: 20,
@@ -32,17 +26,22 @@ const Profile = () => {
               alignItems: "center",
             }}
           >
+            <NavBar />
             <Text
               align="center"
               variant="h4"
               sx={{
-                color: "##4B5563",
+                color: "white",
                 fontFamily: "'Qwitcher Grypen', cursive;",
               }}
             >
               Hello. 你好. Guten Tag.안녕하세요.
             </Text>
-            <Text align="center" variant="h1" sx={{ fontFamily: "Rozha One" }}>
+            <Text
+              align="center"
+              variant="h1"
+              sx={{ fontFamily: "Rozha One", color: "white" }}
+            >
               I'm Krystal
             </Text>
             <br></br>
@@ -51,7 +50,7 @@ const Profile = () => {
               variant="h4"
               sx={{
                 fontFamily: "Abril Fatface, cursive",
-                color: "#1570a5",
+                color: "#F2B378",
               }}
             >
               a FULL-STACK WEB DEVELOPER
@@ -59,7 +58,7 @@ const Profile = () => {
             <br></br>
             <br></br>
             <br></br>
-            <Text align="center" variant="h6">
+            <Text align="center" variant="h6" sx={{ color: "white" }}>
               I love to learn new languages, draw and everything creative.
               <br></br>And to me, programming is all of the above combined.
             </Text>

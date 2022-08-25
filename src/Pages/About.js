@@ -22,8 +22,8 @@ const About = () => {
               alignItems: "center",
             }}
           >
-            <Grid container spacing={-2} columns={2}>
-              <Grid item xs={1}>
+            <Grid container spacing={3} columns={2}>
+              <Grid item xs={1} sx={{ width: "250px" }}>
                 <Image
                   src={prof}
                   width="200px"
@@ -31,23 +31,26 @@ const About = () => {
                   sx={{ borderRadius: "50%" }}
                 ></Image>
               </Grid>
-              <Grid item xs={1}>
+              <Grid item xs={1} sx={{ width: "300px" }}>
                 <Text
                   variant="h2"
                   sx={{
                     fontFamily: "Abril Fatface",
-                    alignItems: "left",
-                    my: 7,
+                    my: 3,
+                    fontSize: 50,
                   }}
                 >
                   About Me
+                </Text>
+                <Text>
+                  I'm <b>Krystal </b>from Singapore and I’m an aspiring &nbsp;
+                  <b>Full-Stack Web Developer</b>.<br />
                 </Text>
               </Grid>
             </Grid>
             <br></br>
             <Text>
-              I'm <b>Krystal </b>from Singapore and I’m an aspiring &nbsp;
-              <b>Full-Stack Web Developer</b>.<br />
+              {" "}
               <h3> Why the change in career?</h3>I used to be a teacher. Due to
               the onset of the pandemic, I found myself using technology to
               teach on a daily basis. Creating technology-enabled lessons
@@ -61,22 +64,16 @@ const About = () => {
             </Text>
           </Box>
         </Grid>
-        <Grid
-          item
-          xs={6}
-          component={Paper}
-          elevation={6}
-          sx={{ backgroundColor: "#acefde" }}
-        >
+        <Grid item xs={6} sx={{ backgroundColor: "#2E6865" }}>
           <Box
             sx={{
               my: 20,
-              height: 350,
+              height: "100%",
               width: "90%",
               mx: 5,
             }}
           >
-            <Text>
+            <Text sx={{ color: "white" }}>
               <h3> Why hire me?</h3> I am an enthusiastic, adaptable individual
               who believes in active learning. I have a wide array of skills and
               a global viewpoint due to my years of studying and working abroad.

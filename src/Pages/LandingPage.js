@@ -5,7 +5,6 @@ import NavBar from "../Components/NavBar";
 const LandingPage = () => {
   return (
     <div>
-      <NavBar />
       <Profile></Profile>
     </div>
   );

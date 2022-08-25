@@ -4,7 +4,7 @@ import NavBar from "../Components/NavBar";
 const Skills = () => {
   return (
     <div>
-      <NavBar></NavBar>
+      <NavBar sx={{ backgroundColor: "white" }} />
     </div>
   );
 };

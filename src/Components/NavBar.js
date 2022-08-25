@@ -16,7 +16,7 @@ import ContactMailIcon from "@mui/icons-material/ContactMail";
 import { Navigate, useNavigate } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 
-const drawerWidth = 600;
+const drawerWidth = 620;
 const drawerHeight = 90;
 
 const NavBar = () => {
@@ -39,7 +39,7 @@ const NavBar = () => {
                 boxSizing: "border-box",
                 border: "none",
                 my: 5,
-                backgroundColor: "#acefde",
+                backgroundColor: "#8FA28C",
               },
             }}
             variant="permanent"
@@ -49,10 +49,11 @@ const NavBar = () => {
               <Tab
                 sx={{
                   mr: 2,
+                  color: "#D5E1DF",
                   "&:hover": {
-                    borderBottom: "2px solid #675fdd",
-                    color: "   #6d81e8",
-                    opacity: [0.9, 0.8, 0.8],
+                    borderBottom: "1px solid #D9D3DD",
+                    color: "#D9D3DD",
+                    // opacity: [0.9, 0.8, 0.8],
                   },
                 }}
                 label="Home"
@@ -61,11 +62,11 @@ const NavBar = () => {
               ></Tab>
               <Tab
                 sx={{
+                  color: "#D5E1DF",
                   mr: 2,
                   "&:hover": {
-                    borderBottom: "2px solid #675fdd",
-                    opacity: [0.9, 0.8, 0.8],
-                    color: "   #6d81e8",
+                    borderBottom: "1px solid #D9D3DD",
+                    color: "#D9D3DD",
                   },
                 }}
                 label="About Me"
@@ -74,11 +75,11 @@ const NavBar = () => {
               ></Tab>
               <Tab
                 sx={{
+                  color: "#D5E1DF",
                   mr: 2,
                   "&:hover": {
-                    borderBottom: "2px solid #675fdd",
-                    opacity: [0.9, 0.8, 0.8],
-                    color: "   #6d81e8",
+                    borderBottom: "1px solid #D9D3DD",
+                    color: "#D9D3DD",
                   },
                 }}
                 icon={<ComputerIcon />}
@@ -87,11 +88,11 @@ const NavBar = () => {
               ></Tab>
               <Tab
                 sx={{
+                  color: "#D5E1DF",
                   mr: 2,
                   "&:hover": {
-                    borderBottom: "2px solid #675fdd",
-                    opacity: [0.9, 0.8, 0.8],
-                    color: "   #6d81e8",
+                    borderBottom: "1px solid #D9D3DD",
+                    color: "#D9D3DD",
                   },
                 }}
                 icon={<LibraryBooksIcon />}
@@ -100,11 +101,11 @@ const NavBar = () => {
               ></Tab>
               <Tab
                 sx={{
+                  color: "#D5E1DF",
                   mr: 2,
                   "&:hover": {
-                    borderBottom: "2px solid #675fdd",
-                    opacity: [0.9, 0.8, 0.8],
-                    color: "   #6d81e8",
+                    borderBottom: "1px solid #D9D3DD",
+                    color: "#D9D3DD",
                   },
                 }}
                 icon={<ContactMailIcon />}
