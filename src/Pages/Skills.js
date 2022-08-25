@@ -738,12 +738,30 @@ const Skills = () => {
               Google Suite &bull; Social Media &bull; English &bull; Mandarin
               Chinese &bull; German (Conversational) &bull; Korean (Elementary)
             </Text>
-            <a href="https://www.instagram.com/krystalillustrates/">
-              <Button startIcon={<InstagramIcon />}>Illustrations</Button>
-            </a>
-            <a href="https://www.youtube.com/channel/UCE7thixC8dFWqWUHdfKn2hA/about/">
-              <Button startIcon={<InstagramIcon />}>Youtube</Button>
-            </a>
+
+            <Button
+              href=" https://www.instagram.com/krystalillustrates/"
+              startIcon={<InstagramIcon />}
+              sx={{
+                "&:hover": {
+                  color: "#a5b1e2",
+                },
+              }}
+            >
+              Illustrations
+            </Button>
+
+            <Button
+              href="https://www.youtube.com/channel/UCE7thixC8dFWqWUHdfKn2hA/about/"
+              startIcon={<InstagramIcon />}
+              sx={{
+                "&:hover": {
+                  color: "#a5b1e2",
+                },
+              }}
+            >
+              Youtube
+            </Button>
           </Paper>
         </Grid>
       </Grid>
