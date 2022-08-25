@@ -16,7 +16,7 @@ const Profile = () => {
         <Grid item xs={1}>
           <Image src={profPic} />
         </Grid>
-        <Grid item xs={1} sx={{ backgroundColor: "#8FA28C" }}>
+        <Grid item xs={1} sx={{ backgroundColor: "#9bad98" }}>
           <Box
             sx={{
               my: 20,
@@ -39,7 +39,7 @@ const Profile = () => {
             </Text>
             <Text
               align="center"
-              variant="h1"
+              variant="h2"
               sx={{ fontFamily: "Rozha One", color: "white" }}
             >
               I'm Krystal
@@ -47,10 +47,10 @@ const Profile = () => {
             <br></br>
             <Text
               align="center"
-              variant="h4"
+              variant="h2"
               sx={{
                 fontFamily: "Abril Fatface, cursive",
-                color: "#F2B378",
+                color: "#1E4844",
               }}
             >
               a FULL-STACK WEB DEVELOPER

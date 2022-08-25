@@ -53,18 +53,19 @@ const About = () => {
               {" "}
               <h3> Why the change in career?</h3>I used to be a teacher. Due to
               the onset of the pandemic, I found myself using technology to
-              teach on a daily basis. Creating technology-enabled lessons
-              brought me back to my teenage days where I customised blogskins by
-              editing its HTML and CSS. I decided to take up a basic coding
-              course while I was teaching and the feeling of accomplishment from
-              creating a website from scratch was incredible. I decided to take
-              the bull by its horns and enroll in the full-time software
-              engineering programme with General Assembly and it has been the
-              best decision I’ve made yet.
+              teach on a daily basis. Creating innovative technology-enabled
+              lessons brought me back to my teenage days where I customised
+              blogskins by editing its HTML and CSS. I decided to take up a
+              basic coding course while I was teaching and the feeling of
+              accomplishment from creating a website from scratch was
+              incredible, and I knew that was going to be the career that I
+              truly wanted to pursue. <br />I decided to enroll in the full-time
+              <b>Software Engineering Immersive </b>programme with General
+              Assembly and it has been the best decision I’ve made yet.
             </Text>
           </Box>
         </Grid>
-        <Grid item xs={6} sx={{ backgroundColor: "#2E6865" }}>
+        <Grid item xs={6} sx={{ backgroundColor: "#9bad98" }}>
           <Box
             sx={{
               my: 20,
@@ -73,15 +74,16 @@ const About = () => {
               mx: 5,
             }}
           >
-            <Text sx={{ color: "white" }}>
-              <h3> Why hire me?</h3> I am an enthusiastic, adaptable individual
-              who believes in active learning. I have a wide array of skills and
-              a global viewpoint due to my years of studying and working abroad.
-              Through my various leadership roles in my work and schooling
-              career, it has taught me excellent public speaking and
-              communication skills. I work well both as a team leader and as a
-              teammate in a dynamic environment.
-            </Text>
+            <Text sx={{ color: "#5C3C3D" }}>
+              <h3> Why hire me?</h3>I am an enthusiastic, adaptable individual
+              who believes in active learning. My science background and my
+              creative side puts me in good stead to excel if given an
+              opportunity to do so. Through my various leadership roles and
+              collaboration with various stakeholders, it has honed me to be a
+              good teammate and leader. I'm a keen learner who is always ready
+              to take on a challenge.
+            </Text>{" "}
+            <br></br>
           </Box>
         </Grid>
       </Grid>
