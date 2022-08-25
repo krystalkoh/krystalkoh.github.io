@@ -13,11 +13,13 @@ const Profile = () => {
       <Grid container component="main" sx={{ height: "100vh" }}>
         <Grid
           item
+          xs={1}
+          item
           xs={false}
           sm={4}
           md={7}
           sx={{
-            backgroundImage: url(),
+            backgroundImage: "url(https://source.unsplash.com/random)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light"
