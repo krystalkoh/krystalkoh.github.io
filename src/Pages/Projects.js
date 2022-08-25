@@ -67,6 +67,7 @@ const Projects = () => {
           <CardActions>
             <Button
               href="https://helphermione.netlify.app"
+              target="blank"
               sx={{
                 margin: "0 auto",
 
@@ -79,6 +80,7 @@ const Projects = () => {
             </Button>
             <Button
               href="https://github.com/krystalkoh/HelpHermione-"
+              target="blank"
               sx={{
                 margin: "0 auto",
                 "&:hover": {
@@ -133,6 +135,7 @@ const Projects = () => {
           <CardActions>
             <Button
               href="https://itsshowtime.netlify.app"
+              target="blank"
               sx={{
                 margin: "0 auto",
                 "&:hover": {
@@ -144,6 +147,7 @@ const Projects = () => {
             </Button>
             <Button
               href="https://github.com/krystalkoh/showtime"
+              target="blank"
               sx={{
                 margin: "0 auto",
                 "&:hover": {
@@ -198,6 +202,7 @@ const Projects = () => {
           <CardActions>
             <Button
               href="https://github.com/krystalkoh/tutorealm_frontend_parent"
+              target="blank"
               sx={{
                 margin: "0 auto",
                 "&:hover": {
@@ -209,6 +214,7 @@ const Projects = () => {
             </Button>
             <Button
               href="https://github.com/krystalkoh/tutorealm_backend/tree/ma"
+              target="blank"
               sx={{
                 margin: "0 auto",
                 "&:hover": {
@@ -258,6 +264,7 @@ const Projects = () => {
           <CardActions>
             <Button
               href="https://fashionkloset.herokuapp.com/"
+              target="blank"
               sx={{
                 margin: "0 auto",
                 "&:hover": {
@@ -269,6 +276,7 @@ const Projects = () => {
             </Button>
             <Button
               href="https://github.com/krystalkoh/fashionkloset"
+              target="blank"
               sx={{
                 margin: "0 auto",
                 "&:hover": {

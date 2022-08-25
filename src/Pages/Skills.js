@@ -741,6 +741,7 @@ const Skills = () => {
 
             <Button
               href=" https://www.instagram.com/krystalillustrates/"
+              target="blank"
               startIcon={<InstagramIcon />}
               sx={{
                 "&:hover": {
@@ -753,6 +754,7 @@ const Skills = () => {
 
             <Button
               href="https://www.youtube.com/channel/UCE7thixC8dFWqWUHdfKn2hA/about/"
+              target="blank"
               startIcon={<InstagramIcon />}
               sx={{
                 "&:hover": {
