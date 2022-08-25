@@ -14,8 +14,9 @@ import { Computer, Face2TwoTone, RoundedCorner } from "@mui/icons-material";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import { Navigate, useNavigate } from "react-router-dom";
+import HomeIcon from "@mui/icons-material/Home";
 
-const drawerWidth = 500;
+const drawerWidth = 600;
 const drawerHeight = 90;
 
 const NavBar = () => {
@@ -38,6 +39,7 @@ const NavBar = () => {
                 boxSizing: "border-box",
                 border: "none",
                 my: 5,
+                backgroundColor: "#acefde",
               },
             }}
             variant="permanent"
@@ -49,7 +51,21 @@ const NavBar = () => {
                   mr: 2,
                   "&:hover": {
                     borderBottom: "2px solid #675fdd",
+                    color: "   #6d81e8",
                     opacity: [0.9, 0.8, 0.8],
+                  },
+                }}
+                label="Home"
+                value="welcome"
+                icon={<HomeIcon />}
+              ></Tab>
+              <Tab
+                sx={{
+                  mr: 2,
+                  "&:hover": {
+                    borderBottom: "2px solid #675fdd",
+                    opacity: [0.9, 0.8, 0.8],
+                    color: "   #6d81e8",
                   },
                 }}
                 label="About Me"
@@ -62,6 +78,7 @@ const NavBar = () => {
                   "&:hover": {
                     borderBottom: "2px solid #675fdd",
                     opacity: [0.9, 0.8, 0.8],
+                    color: "   #6d81e8",
                   },
                 }}
                 icon={<ComputerIcon />}
@@ -74,6 +91,7 @@ const NavBar = () => {
                   "&:hover": {
                     borderBottom: "2px solid #675fdd",
                     opacity: [0.9, 0.8, 0.8],
+                    color: "   #6d81e8",
                   },
                 }}
                 icon={<LibraryBooksIcon />}
@@ -86,6 +104,7 @@ const NavBar = () => {
                   "&:hover": {
                     borderBottom: "2px solid #675fdd",
                     opacity: [0.9, 0.8, 0.8],
+                    color: "   #6d81e8",
                   },
                 }}
                 icon={<ContactMailIcon />}
