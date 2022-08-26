@@ -17,6 +17,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import ContactPageIcon from "@mui/icons-material/ContactPage";
 
 const theme = createTheme({
   palette: {
@@ -70,7 +71,7 @@ const Contact = () => {
               <Button
                 href="https://www.linkedin.com/in/krystal-k-71019285/"
                 target="blank"
-                sx={{ mb: 70, mx: 5 }}
+                sx={{ mb: 70, mx: 2 }}
               >
                 <LinkedInIcon fontSize="large"></LinkedInIcon>
                 <Text>LinkedIn</Text>
@@ -78,7 +79,7 @@ const Contact = () => {
               <Button
                 href="https://github.com/krystalkoh"
                 target="blank"
-                sx={{ mb: 70, mx: 5 }}
+                sx={{ mb: 70, mx: 2 }}
               >
                 <ThemeProvider theme={theme}>
                   <GitHubIcon fontSize="large" color="primary"></GitHubIcon>
@@ -88,12 +89,25 @@ const Contact = () => {
               <Button
                 href="mailto:krystalkoh@gmail.com"
                 target="blank"
-                sx={{ mb: 70, mx: 5 }}
+                sx={{ mb: 70, mx: 2 }}
               >
                 {" "}
                 <ThemeProvider theme={theme}>
                   <EmailIcon fontSize="large" color="secondary"></EmailIcon>
                   <Text color="secondary">Email</Text>
+                </ThemeProvider>
+              </Button>
+              <Button
+                href="https://linktr.ee/krystalkoh"
+                target="blank"
+                sx={{ mb: 70, mx: 2 }}
+              >
+                <ThemeProvider theme={theme}>
+                  <ContactPageIcon
+                    fontSize="large"
+                    color="error"
+                  ></ContactPageIcon>
+                  <Text color="error">All Contact Details</Text>
                 </ThemeProvider>
               </Button>
             </Grid>
