@@ -255,10 +255,10 @@ const Projects = () => {
               Kloset
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              An online platform designed with freelance tutors and parents in
-              mind. Parents create jobs and post them for tutors to view and
-              apply. Parents view all applicants and upon accepting, contact
-              information will be available for viewing.
+              A web application that allows users to upload pictures of clothes
+              that they want to sell, browse one another's uploads and buy
+              clothes from other users. The money earned from the clothes
+              purchased will be credited into the seller's account as well.
             </Typography>
           </CardContent>
           <CardActions>
