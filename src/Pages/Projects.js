@@ -172,7 +172,7 @@ const Projects = () => {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
             <Typography variant="body2" color="text.primary">
-              Built with React.js and styled with TailwindCSS
+              Built with React.js, Node.js and styled with TailwindCSS
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Solo Project
