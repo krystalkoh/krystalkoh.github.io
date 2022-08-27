@@ -63,6 +63,10 @@ const Profile = () => {
               <br></br>And to me, programming is all of the above combined.
             </Text>
           </Box>
+          <Text align="center" fontSize={10} gutterBottom>
+            This portfolio website was created using React.js and styled with
+            Material-UI. All illustrations are self-drawn.
+          </Text>
         </Grid>
       </Grid>
     </div>
