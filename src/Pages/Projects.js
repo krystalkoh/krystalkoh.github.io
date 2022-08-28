@@ -160,7 +160,7 @@ const Projects = () => {
           </Typography>
           <CardActions>
             <Button
-              href="https://github.com/krystalkoh/tutorealm_frontend_parent"
+              href="https://github.com/krystalkoh/tutorealm_frontend"
               target="blank"
               sx={{
                 margin: "0 auto",
