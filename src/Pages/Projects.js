@@ -16,28 +16,7 @@ import showtime from "../assets/showtime.png";
 import kloset from "../assets/kloset.png";
 import tutor from "../assets/tutor.png";
 
-interface ExpandMoreProps extends IconButtonProps {
-  expand: boolean;
-}
-
-const ExpandMore = styled((props: ExpandMoreProps) => {
-  const { expand, ...other } = props;
-  return <IconButton {...other} />;
-})(({ theme, expand }) => ({
-  transform: !expand ? "rotate(0deg)" : "rotate(180deg)",
-  marginLeft: "auto",
-  transition: theme.transitions.create("transform", {
-    duration: theme.transitions.duration.shortest,
-  }),
-}));
-
 const Projects = () => {
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
-
   return (
     <div>
       <NavBar />
@@ -45,7 +24,7 @@ const Projects = () => {
         What I've Built
       </Text>
       <Card
-        sx={{ maxWidth: 300, maxHeight: 450, mx: 2, display: "inline-block" }}
+        sx={{ maxWidth: 300, maxHeight: 500, mx: 2, display: "inline-block" }}
       >
         <CardActionArea>
           <CardMedia
@@ -64,6 +43,12 @@ const Projects = () => {
               the beasts and rescue Ron in this pokemon-style Harry Potter game!
             </Typography>
           </CardContent>
+          <Typography variant="body2" color="text.primary">
+            <b> Built with JavaScript and HTML Canvas</b>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Solo Project
+          </Typography>
           <CardActions>
             <Button
               href="https://helphermione.netlify.app"
@@ -90,30 +75,12 @@ const Projects = () => {
             >
               GitHub
             </Button>
-            <CardActions disableSpacing>
-              <ExpandMore
-                expand={expanded}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label="show more"
-              >
-                <ExpandMoreIcon />
-              </ExpandMore>
-            </CardActions>
           </CardActions>
+          <br /> <br /> <br />
         </CardActionArea>
-        <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-            <Typography variant="body2" color="text.primary">
-              Built with JavaScript and HTML Canvas
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Solo Project
-            </Typography>
-          </CardContent>
-        </Collapse>
       </Card>
-      <Card sx={{ maxWidth: 300, height: 450, mx: 2, display: "inline-block" }}>
+
+      <Card sx={{ maxWidth: 300, height: 500, mx: 2, display: "inline-block" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -132,6 +99,12 @@ const Projects = () => {
               favourite and search for shows.
             </Typography>
           </CardContent>
+          <Typography variant="body2" color="text.primary">
+            <b> Built with React.js, Node.js, TailwindCSS </b>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Solo Project
+          </Typography>
           <CardActions>
             <Button
               href="https://itsshowtime.netlify.app"
@@ -157,30 +130,10 @@ const Projects = () => {
             >
               GitHub
             </Button>
-            <CardActions disableSpacing>
-              <ExpandMore
-                expand={expanded}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label="show more"
-              >
-                <ExpandMoreIcon />
-              </ExpandMore>
-            </CardActions>
           </CardActions>
         </CardActionArea>
-        <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-            <Typography variant="body2" color="text.primary">
-              Built with React.js, Node.js and styled with TailwindCSS
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Solo Project
-            </Typography>
-          </CardContent>
-        </Collapse>
       </Card>
-      <Card sx={{ maxWidth: 300, height: 450, mx: 2, display: "inline-block" }}>
+      <Card sx={{ maxWidth: 300, height: 500, mx: 2, display: "inline-block" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -199,6 +152,12 @@ const Projects = () => {
               information will be available for viewing.
             </Typography>
           </CardContent>
+          <Typography variant="body2" color="text.primary">
+            <b>Built with MongoDB, Express, React.js, Node.js, Tailwind CSS </b>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Group Project
+          </Typography>
           <CardActions>
             <Button
               href="https://github.com/krystalkoh/tutorealm_frontend_parent"
@@ -224,30 +183,10 @@ const Projects = () => {
             >
               Backend
             </Button>
-            <CardActions disableSpacing>
-              <ExpandMore
-                expand={expanded}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label="show more"
-              >
-                <ExpandMoreIcon />
-              </ExpandMore>
-            </CardActions>
           </CardActions>
         </CardActionArea>
-        <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-            <Typography variant="body2" color="text.primary">
-              Built with MongoDB, Express, React.js, Node.js and Tailwind CSS
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Group Project
-            </Typography>
-          </CardContent>
-        </Collapse>
       </Card>
-      <Card sx={{ maxWidth: 300, height: 450, mx: 2, display: "inline-block" }}>
+      <Card sx={{ maxWidth: 300, height: 500, mx: 2, display: "inline-block" }}>
         <CardActionArea>
           <CardMedia component="img" height="180" image={kloset} alt="kloset" />
           <CardContent>
@@ -261,6 +200,14 @@ const Projects = () => {
               purchased will be credited into the seller's account as well.
             </Typography>
           </CardContent>
+          <Typography variant="body2" color="text.primary">
+            <b>
+              Built with Django, PostgreSQL, React.js, Node.js and TailwindCSS{" "}
+            </b>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Solo Project
+          </Typography>
           <CardActions>
             <Button
               href="https://fashionkloset.herokuapp.com/"
@@ -286,29 +233,8 @@ const Projects = () => {
             >
               GitHub
             </Button>
-            <CardActions disableSpacing>
-              <ExpandMore
-                expand={expanded}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label="show more"
-              >
-                <ExpandMoreIcon />
-              </ExpandMore>
-            </CardActions>
           </CardActions>
         </CardActionArea>
-        <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-            <Typography variant="body2" color="text.primary">
-              Built with Django, PostgreSQL, React.js, Node.js and styled with
-              TailwindCSS
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Solo Project
-            </Typography>
-          </CardContent>
-        </Collapse>
       </Card>
     </div>
   );
