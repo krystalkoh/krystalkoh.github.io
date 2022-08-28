@@ -53,7 +53,7 @@ const Profile = () => {
                 color: "#1E4844",
               }}
             >
-              a FULL-STACK WEB DEVELOPER
+              a FULL-STACK SOFTWARE ENGINEER
             </Text>
             <br></br>
             <br></br>
