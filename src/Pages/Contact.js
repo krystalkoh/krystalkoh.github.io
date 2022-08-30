@@ -37,7 +37,7 @@ const Contact = () => {
         <Grid item xs={1} sx={{ mt: 5, display: "inline-block" }}>
           <Text variant="h2">Let's Connect!</Text>
           <Grid item xs={4} sx={{ mt: 5 }}>
-            <Card
+            {/* <Card
               sx={{
                 width: 350,
                 height: 430,
@@ -65,9 +65,8 @@ const Contact = () => {
                   View on screen
                 </Button>
               </CardActions>
-            </Card>
+            </Card> */}
             <Grid item xs={1} sx={{ display: "inline-block" }}>
-              <Card></Card>
               <Button
                 href="https://www.linkedin.com/in/krystal-k-71019285/"
                 target="blank"
