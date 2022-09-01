@@ -12,11 +12,11 @@ import pink from "@mui/material/colors/pink";
 const Profile = () => {
   return (
     <div>
-      <Grid container spacing={2} columns={2}>
-        <Grid item xs={1}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={6}>
           <Image src={profPic} />
         </Grid>
-        <Grid item xs={1} sx={{ backgroundColor: "#9bad98" }}>
+        <Grid item xs={12} sm={6} sx={{ backgroundColor: "#9bad98" }}>
           <Box
             sx={{
               my: 20,
